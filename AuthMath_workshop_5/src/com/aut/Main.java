@@ -1,7 +1,6 @@
-package com.aut;
+//package com.aut;
 
 public class Main {
-
     public static void main(String[] args) {
         int sumResult = AUTMath.sum(10,12);
         assertResult(sumResult, 22, "sum");
@@ -13,7 +12,7 @@ public class Main {
         assertResult(multiplyResult, 1068, "multiply");
 
         int divideResult = AUTMath.divide(11,5);
-        assertResult(divideResult, 2.2, "divide");
+        assertResult(divideResult, 2, "divide");
 
         int factorial = AUTMath.factorial(7);
         assertResult(factorial, 5040, "factorial");
